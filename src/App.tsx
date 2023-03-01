@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
+import Solutions from './Solutions';
+import About from './About';
+import ContactUs from './Contactus';
+
 
 function App() {
   return (
@@ -16,9 +21,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          Learn React        </a>
       </header>
+      <Home />
+      <Solutions />
+      <About />
+      <ContactUs />
+      
+
     </div>
   );
 }
